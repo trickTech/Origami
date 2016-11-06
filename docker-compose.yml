@@ -1,0 +1,7 @@
+mysql:
+    image: mysql/mysql-server
+    ports:
+        - "3306:3306"
+    privileged: true
+    environment:
+      - MYSQL_ROOT_PASSWORD=randomstring

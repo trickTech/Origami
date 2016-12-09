@@ -8,5 +8,10 @@ def init_commit():
     return "Hello world"
 
 
+@app.route('/webook')
+def web_hook():
+    return "Hook here"
+
+
 if __name__ == "__main__":
     app.run(debug=True)

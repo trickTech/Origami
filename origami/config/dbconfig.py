@@ -1,1 +1,1 @@
-DATABASE_URL = "mysql+pymysql://eleme:eleme@localhost:3306/dev_notify?charset=utf8"
+DATABASE_URL = "mysql+pymysql://eleme:eleme@localhost:3306/origami?charset=utf8"
